@@ -10,4 +10,4 @@ function $$$(tagName) {
     return document.createElement(tagName);
 }
 
-return baseURL = '/talk/'
+return baseURL = '/Talk/'
