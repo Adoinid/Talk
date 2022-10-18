@@ -4,7 +4,7 @@
     const user = resp.data;
     if (!user) {
         alert('登录失败或登录已过期')
-        location.href = baseURL + 'index.html';
+        location.href = baseURL + 'login.html';
         return;
     }
 
