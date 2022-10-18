@@ -1,3 +1,4 @@
+const baseURL = '/Talk/'
 function $(selector) {
     return document.querySelector(selector);
 }
@@ -9,5 +10,3 @@ function $$(selector) {
 function $$$(tagName) {
     return document.createElement(tagName);
 }
-
-return baseURL = '/Talk/'
