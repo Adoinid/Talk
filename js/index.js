@@ -4,7 +4,7 @@
     const user = resp.data;
     if (!user) {
         alert('登录失败或登录已过期')
-        location.href = '../login.html'
+        location.href = baseURL + 'index.html';
         return;
     }
 
@@ -24,7 +24,7 @@
     // 注销事件
     doms.close.onclick = () => {
         API.loginOut;
-        location.href = '../login.html'
+        location.href =  baseURL + 'login.html'
     }
 
     // 加载历史记录

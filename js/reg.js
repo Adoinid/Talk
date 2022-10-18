@@ -52,6 +52,6 @@ form.onsubmit = async function (e) {
     const resp = await API.exists(data)
     if (resp === 0) {
         alert('注册成功，点击确定，前往登录');
-        location.href = '../login.html';
+        location.href =  baseURL + 'login.html';
     }
 }
